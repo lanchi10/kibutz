@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אפשרויות תשלום עבור נחלה בקיבוץ - יורשים ותיקים</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        nav {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            text-align: center;
+            margin: 0 auto 20px;
+            font-size: 16px;
+        }
+        .icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: right;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .option {
+            background-color: #e6f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .calculation {
+            background-color: #fff9e6;
+            padding: 10px;
+            border-left: 3px solid #ffd700;
+            margin-bottom: 10px;
+        }
+        .total {
+            background-color: #e6ffe6;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: #ffffcc;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .notification {
+            background-color: #ffcccb;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: #b22222;
+        }
+        @media (max-width: 600px) {
+            table, tr, td {
+                display: block;
+            }
+            tr {
+                margin-bottom: 10px;
+            }
+            td {
+                border: none;
+                position: relative;
+                padding-left: 50%;
+            }
+            td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+            }
+        }
+    </style>
+    <script>
+        function downloadPDF() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+
+    <nav>
+        <a href="#general-info">מידע כללי</a>
+        <a href="#payment-options-160">אפשרויות תשלום 160 מ"ר</a>
+        <a href="#additional-payment">תוספות בנייה</a>
+        <a href="#total-payment">סכום כולל</a>
+        <a href="#important-notes">הערות חשובות</a>
+    </nav>
+
+    <h1>אפשרויות תשלום עבור נחלה בקיבוץ - יורשים ותיקים</h1>
+    
+    <button class="download-button" onclick="downloadPDF()">הורד מסמך כ-PDF</button>
+
+    <p class="highlight">הנתונים מבוססים על מצגת הקיבוץ מתאריך 23.9.2024</p>
+
+    <h2 id="general-info">מידע כללי:</h2>
+    <ul>
+        <li><img src="heir_icon.png" class="icon"> מספר יורשים: 5 (בחלקים שווים)</li>
+        <li><img src="land_icon.png" class="icon"> ערך המגרש לצורך היוון (שומת רמ"י): 2,400,000 ₪</li>
+        <li><img src="size_icon.png" class="icon"> גודל הנכס הנוכחי: 160 מ"ר</li>
+        <li><img src="rights_icon.png" class="icon"> זכויות בנייה כוללות: עד 370 מ"ר</li>
+        <li><img src="additional_icon.png" class="icon"> תוספת אפשרית: 210 מ"ר</li>
+    </ul>
+
+    <h2 id="payment-options-160">אפשרויות תשלום עבור 160 מ"ר ראשונים:</h2>
+
+    <div class="option">
+        <h3>אפשרות 1: תשלום מלא מיידי</h3>
+        <p>תשלום מלא עבור כל זכויות הבנייה של 160 מ"ר.</p>
+        <div class="calculation">
+            חישוב: 2,400,000 ₪ × 29.25% = 702,000 ₪
+        </div>
+        <p>סכום לתשלום: 702,000 ₪ + מע"מ = <span class="highlight">821,340 ₪ (כולל מע"מ)</span></p>
+    </div>
+
+    <div class="option">
+        <h3>אפשרות 2: דחיית תשלום</h3>
+        <p>דחיית התשלום עד למועד "העברת זכויות" או בנייה בפועל.</p>
+        <p>יש לשלם מע"מ באופן מיידי:</p>
+        <div class="calculation">
+            חישוב מע"מ: 2,400,000 ₪ × 29.25% × 17% = 119,340 ₪
+        </div>
+        <p>סכום לתשלום מיידי: <span class="highlight">119,340 ₪ (מע"מ בלבד)</span></p>
+        <p>הערה: בעת מימוש בעתיד, התשלום יהיה לפי שומה עדכנית או השומה הנוכחית בתוספת ריבית והצמדה.</p>
+    </div>
+
+    <h2 id="additional-payment">אפשרויות תשלום עבור תוספת בנייה (מעבר ל-160 מ"ר):</h2>
+
+    <table>
+        <tr>
+            <th>תוספת שטח</th>
+            <th>סכום לתשלום</th>
+            <th>כולל מע"מ</th>
+            <th>הסבר</th>
+        </tr>
+        <tr>
+            <td data-label="תוספת שטח">20 מ"ר</td>
+            <td data-label="סכום לתשלום">158,400 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">185,328 ₪</span></td>
+            <td data-label="הסבר">
+                <div class="calculation">
+                    חישוב: (2,400,000 ₪ ÷ 160 מ"ר) × 20 מ"ר × 33% = 158,400 ₪
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td data-label="תוספת שטח">40 מ"ר</td>
+            <td data-label="סכום לתשלום">316,800 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">370,656 ₪</span></td>
+            <td data-label="הסבר">
+                <div class="calculation">
+                    חישוב: (2,400,000 ₪ ÷ 160 מ"ר) × 40 מ"ר × 33% = 316,800 ₪
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td data-label="תוספת שטח">80 מ"ר</td>
+            <td data-label="סכום לתשלום">633,600 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">741,312 ₪</span></td>
+            <td data-label="הסבר">
+                <div class="calculation">
+                    חישוב: (2,400,000 ₪ ÷ 160 מ"ר) × 80 מ"ר × 33% = 633,600 ₪
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td data-label="תוספת שטח">100 מ"ר</td>
+            <td data-label="סכום לתשלום">792,000 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">926,640 ₪</span></td>
+            <td data-label="הסבר">
+                <div class="calculation">
+                    חישוב: (2,400,000 ₪ ÷ 160 מ"ר) × 100 מ"ר × 33% = 792,000 ₪
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td data-label="תוספת שטח">210 מ"ר (מקסימום)</td>
+            <td data-label="סכום לתשלום">1,663,200 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">1,945,944 ₪</span></td>
+            <td data-label="הסבר">
+                <div class="calculation">
+                    חישוב: (2,400,000 ₪ ÷ 160 מ"ר) × 210 מ"ר × 33% = 1,663,200 ₪
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2 id="total-payment">סכום כולל לתשלום (כולל 160 מ"ר ראשונים + תוספות):</h2>
+
+    <table>
+        <tr>
+            <th>סך הכל שטח</th>
+            <th>סכום כולל לתשלום (לפני מע"מ)</th>
+            <th>כולל מע"מ</th>
+            <th>הסבר</th>
+        </tr>
+        <tr>
+            <td data-label="סך הכל שטח">160 מ"ר (בסיס)</td>
+            <td data-label="סכום כולל לתשלום (לפני מע"מ)">702,000 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">821,340 ₪</span></td>
+            <td data-label="הסבר">תשלום בסיסי עבור 160 מ"ר ראשונים</td>
+        </tr>
+        <tr>
+            <td data-label="סך הכל שטח">180 מ"ר</td>
+            <td data-label="סכום כולל לתשלום (לפני מע"מ)">860,400 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">1,006,668 ₪</span></td>
+            <td data-label="הסבר">702,000 ₪ (בסיס) + 158,400 ₪ (20 מ"ר נוספים)</td>
+        </tr>
+        <tr>
+            <td data-label="סך הכל שטח">200 מ"ר</td>
+            <td data-label="סכום כולל לתשלום (לפני מע"מ)">1,018,800 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">1,191,996 ₪</span></td>
+            <td data-label="הסבר">702,000 ₪ (בסיס) + 316,800 ₪ (40 מ"ר נוספים)</td>
+        </tr>
+        <tr>
+            <td data-label="סך הכל שטח">240 מ"ר</td>
+            <td data-label="סכום כולל לתשלום (לפני מע"מ)">1,335,600 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">1,562,652 ₪</span></td>
+            <td data-label="הסבר">702,000 ₪ (בסיס) + 633,600 ₪ (80 מ"ר נוספים)</td>
+        </tr>
+        <tr>
+            <td data-label="סך הכל שטח">260 מ"ר</td>
+            <td data-label="סכום כולל לתשלום (לפני מע"מ)">1,494,000 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">1,747,980 ₪</span></td>
+            <td data-label="הסבר">702,000 ₪ (בסיס) + 792,000 ₪ (100 מ"ר נוספים)</td>
+        </tr>
+        <tr>
+            <td data-label="סך הכל שטח">370 מ"ר (מקסימום)</td>
+            <td data-label="סכום כולל לתשלום (לפני מע"מ)">2,365,200 ₪</td>
+            <td data-label="כולל מע"מ"><span class="highlight">2,767,284 ₪</span></td>
+            <td data-label="הסבר">702,000 ₪ (בסיס) + 1,663,200 ₪ (210 מ"ר נוספים)</td>
+        </tr>
+    </table>
+
+    <div class="notification">
+        <h3>הערה חשובה:</h3>
+        <p>התשלומים כפופים לשינויים בשומות או ריביות עתידיות. נא להתעדכן באופן שוטף לגבי כל שינוי שקשור להסכמים הנ"ל.</p>
+    </div>
+
+    <h2 id="important-notes">הערות חשובות:</h2>
+    <ol>
+        <li>כל הסכומים הנ"ל הם <span class="highlight">בנוסף לתשלום המקדמי של 3.75% + מע"מ ששולם כבר</span>.</li>
+        <li>התשלום עבור תוספות בנייה (מעבר ל-160 מ"ר) הוא 33% משווי הקרקע היחסי.</li>
+        <li>ניתן לדחות את התשלום עבור תוספות בנייה עד למועד הבנייה בפועל או העברת זכויות.</li>
+        <li>בעת דחיית תשלום, יש לקחת בחשבון שהסכום עשוי להשתנות בהתאם לשומה עדכנית או בתוספת ריבית והצמדה.</li>
+    </ol>
+
+</body>
+</html>
